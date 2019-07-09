@@ -44,6 +44,15 @@ ul .focus{
 	width: 140px;
 	border-top-left-radius: 31px;
 	border-top-right-radius: 31px;
+	animation:0.7s gotop ease-in-out forwards
+}
+@keyframes gotop{
+	0%{
+		transform: translateY(50px);
+	}
+	100%{
+		transform: translateY(0);
+	}
 }
 main{
 	display: flex;
