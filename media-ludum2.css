@@ -1,0 +1,68 @@
+@media screen and (max-width:910px){
+
+section{
+	width: 100% !important;
+}
+header h1{
+	font-size: 40px;
+	width: 300px
+}
+nav{
+	justify-content: center;
+}
+nav .btn{
+	position: absolute;
+	right: 20px
+}
+.pattern h2{
+	font-size: 30px
+}
+.heading{
+	text-align: center;
+}
+.best{
+	justify-content: space-around;
+}
+.bestbox{
+	margin: 10px;
+	margin-bottom: 30px;
+}
+.comsection{
+	flex-wrap:wrap;
+	justify-content: space-around;
+}
+.exp{
+	justify-content: space-around;
+}
+.expbox{
+	margin: 0;
+	padding-bottom: 20px
+}
+.sendmail > div{
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	padding-bottom: 30px
+}
+.sendmail > div .dabletext{
+	padding-left: 10px;
+	text-align: center;
+}
+.sendmail > div .dabletext h3{
+	font-size: 25px
+}
+.sendmail > div .dabletext h4{
+	font-size: 13px
+}
+.contacts{
+	flex-wrap: wrap;
+}
+.ourjob{
+	min-width: 100%;
+	justify-content: center;
+}
+.jobbox{
+	max-width:35%;
+	margin: 4px;
+}
+}
