@@ -1,3 +1,15 @@
+@media screen and (max-width:980px){	
+.comsection{
+	flex-wrap:wrap;
+	justify-content: space-around;
+}
+.exp{
+	justify-content: space-between;
+}
+.expbox{
+	margin: 0
+}
+}
 @media screen and (max-width:910px){
 
 section{
@@ -26,10 +38,6 @@ nav .btn{
 .bestbox{
 	margin: 10px;
 	margin-bottom: 30px;
-}
-.comsection{
-	flex-wrap:wrap;
-	justify-content: space-around;
 }
 .exp{
 	justify-content: space-around;
@@ -64,5 +72,13 @@ nav .btn{
 .jobbox{
 	max-width:35%;
 	margin: 4px;
+}
+footer > div{
+	width: 100%;
+	justify-content: space-around;
+}
+footer > div p{
+	text-align: right;
+	width: 230px;
 }
 }
