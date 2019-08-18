@@ -12,6 +12,15 @@ body{
 	background: #474747;
 	font-family:"Evolventa", "Poppins";
 }
+.another{
+	text-transform: uppercase;
+	color: #2D9CDB;
+	transition: 0.4s;
+}
+.another:hover{
+	color:#474747;
+	transform: scale(0.9);
+}
 .logo{
 	height:200px;
 	transform: translateY(-30px);
