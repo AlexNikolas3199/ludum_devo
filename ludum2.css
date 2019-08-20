@@ -290,11 +290,12 @@ label:before{
 	font-size: 14px;
 	line-height: 22px;
 	transition: 0.3s;
-	transition-delay: 2.3s;
-	display: none;
+	overflow: hidden;
+	height: 0
+
 }
 input[type="checkbox"]:checked ~  p{
-	display: block
+	height: 50px;
 }
 input[type="checkbox"]:checked ~ label:before{
 	transform: rotate(-45deg);
@@ -376,6 +377,7 @@ input[type="checkbox"]:checked ~ label:before{
 	display: flex;
 	margin-top:40px;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	min-height: 30vh;
 }
 .contact{
